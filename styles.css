@@ -1,0 +1,15 @@
+h1 {
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+#title {
+    background-color: #067A46;
+    padding: 3%;
+    margin: auto;
+}
+
+#main {
+    margin: auto;
+}
