@@ -6,7 +6,7 @@ const treeDataURI =
   '\avocado.svg';
 const beginYear = 2011;
 const endYear = 2050;
-const lineCount = 10;
+const lineCount = 11;
 // Basic option:
 option = {
   color: ['#067A46'],
