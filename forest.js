@@ -2,11 +2,14 @@ var chartDom = document.getElementById('main');
 var myChart = echarts.init(chartDom);
 var option;
 
+
 const treeDataURI =
   '\avocado.svg';
 const beginYear = 2011;
 const endYear = 2050;
 const lineCount = 11;
+const avosize = 35 + Math.random() * 10;
+
 // Basic option:
 option = {
   color: ['#067A46'],
@@ -32,14 +35,14 @@ option = {
   },
   grid: {
     top: 'center',
-    height: 280
+    height: 550
   },
   series: [
     {
       name: 'all',
       type: 'pictorialBar',
       symbol: 'image://' + treeDataURI,
-      symbolSize: [35, 35],
+      symbolSize: [avosize, avosize],
       symbolRepeat: true,
       data: makeSeriesData(beginYear),
       animationEasing: 'elasticOut'
@@ -48,7 +51,7 @@ option = {
       name: 'all',
       type: 'pictorialBar',
       symbol: 'image://' + treeDataURI,
-      symbolSize: [35, 35],
+      symbolSize: [avosize, avosize],
       symbolRepeat: true,
       data: makeSeriesData(beginYear, true),
       animationEasing: 'elasticOut'
