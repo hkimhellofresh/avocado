@@ -1,15 +1,9 @@
-h1 {
-    color: white;
-    font-size: large;
-    text-align: center;
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: 'yellow'
 }
-
-#title {
-    background-color: #067A46;
-    padding: 3%;
-    margin: auto;
-}
-
-#main {
-    margin: auto;
+text {
+  font-size: 24px;
+  font-family: 'Share Tech', sans-serif;
 }
